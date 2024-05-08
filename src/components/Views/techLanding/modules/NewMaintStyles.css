@@ -1,0 +1,274 @@
+.NewMaint--body {
+    display: grid;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.NewMaint--title {
+    justify-self: left;
+    text-align: left;
+    margin: 30px 0 20px 0;
+    letter-spacing: .2em;
+    color: #474747;
+    font-size: 1.2em;
+}
+
+.NewMaint--equip-details-body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.NewMaint--equip-details-body-element {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    background-color: #f8f8f8;
+    width: 65vw;
+}
+
+.NewMaint--equip-details-name {
+    color: #909090;
+    font-weight: bold;
+    border: #efefef 1px solid;
+    padding: 10px;
+    border-right: 3px;
+}
+
+.NewMaint--equip-details-value {
+    color: #707070;
+    font-style: italic;
+    padding: 10px;
+    border: #efefef 1px solid;
+}
+
+.NewMaint--equip-details-body-bigelement {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f8f8f8;
+    width: 65vw;
+}
+
+.NewMaint--equip-details-bigname {
+    color: #909090;
+    font-weight: bold;
+    border: #efefef 1px solid;
+    padding: 10px;
+}
+
+.NewMaint--equip-details-bigvalue {
+    color: #707070;
+    font-style: italic;
+    padding: 10px;
+    border: #efefef 1px solid;
+    min-height: 100px;
+}
+
+.NewMaint--add-test-container {
+    display: grid;
+    grid-template-columns: 165px 200px 165px;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.NewMaint--add-test-button1 {
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px #707070 solid;
+    padding: 10px;
+    width: 165px;
+    text-align: center;
+    height: 40px;
+}
+
+.NewMaint--add-test-dropdown {
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px #707070 solid;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.NewMaint--add-test-button2 {
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px #707070 solid;
+    padding: 10px;
+    width: 165px;
+    text-align: center;
+    height: 40px;
+}
+
+.NewMaint--add-test-button1:hover, .NewMaint--add-test-button2:hover {
+    color: #707070;
+    background-color: rgb(228, 228, 228);
+    border: #707070 1px solid;
+    cursor: pointer;
+}
+
+.NewMaint--testList-container {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+
+.NewMaint--testList-row {
+    display: grid;
+    grid-template-columns: 50px 450px 80px;
+    gap: 10px;
+    align-items: center;
+    color: #707070;
+}
+
+.NewMaint--testList-icon {
+    font-size: 1.5em;
+}
+
+.NewMaint--testList-icon:hover {
+    color: rgb(191, 0, 0);
+    cursor: pointer;
+}
+
+.NewMaint--testList-desc {
+    max-width: 450px;
+    height: 45px;
+    padding: 5px;
+    color: #707070;
+    border-radius: 5px;
+}
+
+.NewMaint--testList-tag-n-value {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    align-items: center;
+    border: 0px solid;
+}
+
+.NewMaint--testList-value {
+    padding: 10px;
+    color: #707070;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.NewMaint--testList-small-value {
+    padding: 10px;
+    color: #707070;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: .7em;
+    text-align: center;
+}
+
+.NewMaint--testList-3-value {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.NewMaint--testList-2-1-value {
+    display: grid;
+    grid-template-columns: 50px 50px 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.NewMaint--testList-2-2-value {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.NewMaint--testList-3-3-value {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px;
+    align-items: center;
+    gap: 5px;
+}
+
+.NewMaint--testList-add {
+    color: #707070;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.NewMaint--testList-add:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.NewMaint--buttons-container {
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.NewMaint--create-buton {
+    color: white;
+    background-color: #707070;
+    padding: 10px;
+    width: 100px;
+    border: #707070 1px solid;
+    border-radius: 5px;
+}
+
+.NewMaint--cancel-buton {
+    color: #707070;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: #707070 1px solid;
+    border-radius: 5px;
+}
+
+.NewMaint--save-buton {
+    color: #707070;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: #707070 1px solid;
+    border-radius: 5px;
+}
+
+.NewMaint--create-buton:hover, .NewMaint--cancel-buton:hover, .NewMaint--save-buton{
+    color: #707070;
+    background-color: rgb(228, 228, 228);
+    border: #707070 1px solid;
+    cursor: pointer;
+}
+
+.NewMaint--requiered {
+    border: rgb(191, 0, 0) 1px solid; 
+ }
+
+
+ @media screen and (max-width: 950px) {
+
+    .NewMaint--body {
+        position: absolute;
+        left: -15vw;
+        margin-top: 10px;
+        width: 130vw;
+        zoom: .6;
+        transform: scale(.62);
+        transform-origin:top;
+    }
+    
+    .NewMaint--equip-details-body-bigelement {
+        width: 140vw;
+    }
+
+
+    .NewMaint--equip-details-bigname {
+        font-size: .4em;
+    }
+
+
+ }

@@ -1,0 +1,146 @@
+
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.home-body {
+  /* position: absolute; */
+  padding: 20px 0 0 0 ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.home-body-contents {
+  
+}
+
+.home-landing {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.home-body-landing {
+    display: grid;
+    max-width: 1300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: green; */
+}
+
+.landing-image-1 {
+  height: 60vh;
+  align-self: center;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: white;
+}
+
+.welcome-content {
+  padding: 20px;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #375d7e;
+}
+
+
+  .log-form {
+    justify-self: center;
+    margin-top: 8vh;
+  }
+
+  #email, #password {
+    margin-top: 2px;
+    height: 30px;
+    width: 15vw;
+  }
+
+  #logButton {
+    margin-top: 4px;
+    height: 25px;
+    width: 6vw;
+  }
+
+
+  @media screen and (max-width: 950px) {
+    h1, h2{
+        text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 15px;
+    }
+
+    h3 {
+      font-size: 10px;
+    }
+
+    /* .home-body {
+      width: 100vw;
+      margin-top: 5px;
+      padding: 0;
+    } */
+
+    .home-body {
+      background-color: white;
+      padding: 0;
+      margin: 0;
+    
+
+    }
+  
+    .home-body-contents {
+        width: 100vw;
+    }
+
+    .landing-image-1 {
+      display: none;
+    }
+
+    .welcome-content {
+      justify-content: center;
+    }
+
+    .cards {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+      #email, #password {
+        margin-top: 4px;
+        height: 45px;
+        width: 50vw;
+      }
+    
+      #logButton {
+        margin-top: 6px;
+        height: 45px;
+        width: 30vw;
+      }
+
+  }

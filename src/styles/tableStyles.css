@@ -1,0 +1,162 @@
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* table {
+    width: 70vw;
+    margin: 0;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+table.--no-shadow {
+    box-shadow: 0 0px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c8c8c8;
+}
+
+th, td {
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+}
+
+tr {
+    justify-content: center;
+}
+
+
+tr.table-row:nth-child(even) {
+    background-color: rgb(233, 233, 233);
+}
+
+tr.table-row:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+} */
+
+.thead-column-container, .table-column-container {
+    height: 4em;
+    text-align: center;
+}
+
+.thead-column-container {
+    color: azure;
+    background-color: rgb(103, 103, 103);
+}
+
+.table-text-input {
+    color: #666;
+    height: 30px;
+    justify-self: center;
+    padding: 3px;
+}
+
+
+
+
+/* .table-button-container {
+    padding-top: .9em;
+    height: 4em;
+} */
+
+.table-button-light {
+    margin: 0 10px 0 10px;
+    background-color: white;
+    border: 1px;
+    border-color: #488a99;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px;
+    height: 2.8em;
+    color: #488a99;
+}
+
+.table-button-dark {
+    margin: 0 10px 0 10px;
+    border: 1px;
+    border-color: #488a99;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px;
+    height: 2.8em;
+    color: white;
+    background-color: #488a99;
+}
+
+.table-button-light:hover {
+    color: white;
+    background-color: #488a99;   
+}
+
+.table-button-dark:hover {
+    background-color: #666;   
+}
+
+.create-button-container {
+    display: flex;
+    margin-top: 30px;
+    text-align: start;
+}
+
+.table-button-light.table-create-button {
+    background-color: rgb(103, 103, 103);
+    border-color: transparent;
+    color: azure;
+    align-self: flex-start;
+}
+
+.table-button-light.table-create-button:hover {
+    color: rgb(103, 103, 103);
+    background-color: rgb(185, 185, 185);
+    
+}
+/* 
+@media screen and (max-width: 1200px) {
+    table {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    table {
+        font-size: .5em;
+        width: 90vw;
+        margin: 0;
+        margin-top: 20px;
+        border-collapse: collapse;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    th, td {
+        letter-spacing: 0;
+        
+    }
+
+    .table-text-input {
+        font-size: .8em;
+        max-width: 15vw;
+        max-height: 2em;
+    }
+
+    .table-button-container {
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        text-align: start;
+        max-width: 80%;
+        gap: 2px;
+    }
+
+    .table-button-light, .table-button-dark {
+        margin: 0 0 0 0;
+        padding: 2px;
+        height: 2em;
+        font-size: .5em;
+        max-width: 60px;
+    }
+} */

@@ -1,0 +1,14 @@
+@import url('./userReset/PwRnwStyles.css');
+@import url('./adminDashboard/ManagerViewStyles.css');
+@import url('./adminSites/SitesStyles.css');
+@import url('./superAdminMaintenances/MaintsSuperAdminStyles.css');
+@import url('./superAdminSites/SitesSuperAdminStyles.css');
+@import url('./adminMaintenances/MaintDashStyles.css');
+@import url('./adminReports/ReportsDashAdminStyles.css');
+@import url('./adminSitesEquip/SitesEquipmentAdminStyles.css');
+@import url('./techLanding/TechLandingStyles.css');
+@import url('./techLanding/modules/NewReportFormStyles.css');
+@import url('./techLanding/modules/ReportDetailsStyles.css');
+@import url('./techLanding/modules/NewMaintStyles.css');
+@import url('./techLanding/modules/QrLandingStyles.css');
+@import url('./adminPrintLabels/PrintLabelsStyles.css');

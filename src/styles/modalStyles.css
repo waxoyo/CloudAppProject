@@ -1,0 +1,140 @@
+.modal-blurr-bk{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.modal-title {
+    color: rgb(212, 212, 212);
+    font-size: 1.5em;
+}
+
+.modalPadding {
+    padding: 10px;
+}
+
+.modal-body{
+    color: rgb(212, 212, 212);
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #375d7e;
+
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.modal-body-2{
+    background-color: #ffffff;
+    overflow-y: scroll;
+    justify-content: center;
+    position: fixed; /* or absolute */
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);    
+}
+
+.modal-loading {
+    z-index: 2;
+    /* color: rgb(212, 212, 212); */
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color: transparent;
+
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-form-container {
+    margin-top: 1.5em;
+    justify-content: center;
+}
+
+.modal-form-body-container {
+    /* border-color: #7c0a0acd;
+    border-style: dashed; */
+
+    margin-top: 1em;
+    padding: 10px;
+    width: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.8em;
+    text-align: left;
+    
+}
+
+/* .modal-label{
+    text-align: left;
+} */
+
+.modal-form-input {
+    margin-top: .5em;
+    min-width: 15vw;
+    min-height: 2.5em;
+}
+
+.modal-button-container {
+    /* border-color: #7c0a0acd;
+    border-style: dashed; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+
+.modal-button {
+    margin-top: 10px;
+    background-color: white;
+    border: 1px;
+    border-color: #488a99;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px;
+    height: 2.8em;
+    color: #488a99;
+    min-width: 5vw;
+}
+
+
+.modal-button:hover {
+    background-color: grey;
+    color: white;
+    border-color: whitesmoke;
+}
+
+@media screen and (max-width: 950px) {
+    .modal-body {
+        font-size: .7em;
+    }
+
+    .modal-body-2{
+        min-width: 100vw;
+    }
+
+    .modal-form-input{
+        width: 100px;
+        max-width: 100px;
+        height: 2em;
+        max-height: 2em;
+    }
+}

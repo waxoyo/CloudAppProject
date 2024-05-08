@@ -1,0 +1,367 @@
+.man-view--row{
+    justify-self: center;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    max-width: 1400px;
+}
+
+.man-view--acc-chart-cont {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    width: 80vw;
+    max-width: 1400px;
+}
+
+.man-view--acc-chart-dials-cont {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.man-view--acc-chart-dials {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(107, 107, 107);
+}
+
+.man-view--acc-chart-dials-select{
+    padding: 8px;
+    border-radius: 5px;
+    height: 35px;
+    width: 175px;
+}
+
+.man-view--2-col-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    height: 400px;
+    max-height: 400px;
+}
+
+
+.man-view--next-maint-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 30px 1fr;
+    align-items: start;
+    padding: 10px;
+    row-gap: 10px;
+    max-height: 350px;
+    height: 100%;
+}
+
+.man-view--next-maint-buttons-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 30px;
+}
+
+.man-view--next-maint-dials-container {
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+}
+
+.man-view--next-maint-button {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.man-view--next-maint-button:hover {
+    cursor: pointer;
+}
+
+.man-view--next-maint-button-current {
+    color: #3AB449;
+}
+
+.man-view--next-maint-button-current-selected {
+    background-color: #3AB449;
+    border: #3AB449 solid 1px;
+    color: white;
+}
+
+.man-view--next-maint-button-next {
+    color: rgb(48, 88, 167);
+}
+
+.man-view--next-maint-button-next-selected {
+    background-color: rgb(48, 88, 167);
+    border: rgb(48, 88, 167) solid 1px;
+    color: white;
+}
+
+.man-view--next-maint-button-all {
+    color: #FDAB11;
+}
+
+.man-view--next-maint-button-all-selected {
+    background-color: #FDAB11;
+    border: #FDAB11 solid 1px;
+    color: white;  
+}
+
+
+.man-view--next-maint-icon-ok {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    font-size: 8em;
+    color: #444444;
+}
+
+
+.man-view--next-maint-body-container {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 200px;
+    gap: 3px;
+    overflow-y:scroll;
+}
+
+.man-view--next-maint-body-row {
+    color: #444444;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    border: #cdcdcd solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+}
+
+.man-view--next-maint-body-row-icon {
+    color: green;
+    font-size: 1.1em;
+}
+
+.man-view--next-maint-body-row-h {
+    color: #444444;
+    background-color: #EBEDF9;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    border: #CCCDE2 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.man-view--next-maint-body-row-amount-h {
+    text-align: center;
+}
+
+.man-view--next-maint-body-row-amount {
+    text-align: center;
+}
+
+.man-view--due-maint-ok-container {
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    max-height: 350px;
+    height: 100%;
+}
+
+.man-view--due-maint-ok-icon {
+    font-size: 10em;
+    color:#444444;
+}
+
+.man-view--due-maint-ok-legend {
+    color: #444444;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.man-view--due-maint {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
+.man-view--due-maint-dials-container {
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+}
+
+.man-view--due-maint-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    margin-top: 10px;
+    align-items: start;
+}
+
+.man-view--due-maint-card {
+    color: #444444;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    border: #cdcdcd solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    max-height: 40px;
+}
+
+.man-view--due-maint-icon {
+    color: rgb(201, 201, 0);
+}
+
+
+
+.man-view--reports-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    height: 300px;
+}
+
+.man-view--reports-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    row-gap: 5px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+}
+
+.man-view--reports-card {
+    display: grid;
+    grid-template-rows: .3fr 1fr;
+    color: #444444;
+    background-color: #ffffff;
+    border: #cfcfcf 1px solid;
+    border-radius: 5px;
+    height: fit-content;
+    align-items: center;
+    padding: 5px;
+}
+
+.man-view--reports-card-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfcfcf;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.man-view--reports-card-content {
+    display: grid;
+    grid-template-columns: .4fr 1fr 1fr;
+    align-items: end;
+}
+
+.man-view--reports-status-container {
+    display: grid;
+    grid-template-rows: 2fr .5fr;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+    gap: 1px;
+}
+
+.man-view--reports-icon-nok {
+    font-size: 1.8em;
+    color: #cb1010;
+}
+
+.man-view--reports-icon-ok {
+    font-size: 1.8em;
+    color: #3AB449;
+}
+
+.man-view--reports-icon-progress {
+    font-size: 1.8em;
+    color: #FDAB11;
+}
+
+.man-view--reports-card-status {
+    font-size: .8em;
+}
+
+.man-view--reports-card-dates-container {
+    padding: 10px;
+    font-size: .8em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.man-view--reports-card-date-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.man-view--reports-card-repby-container {
+    padding: 10px;
+    font-size: .8em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.man-view--reports-dials-container {
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+    padding: 20px;
+}
+
+.man-view--reports-dials {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 3px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(107, 107, 107);
+    height: fit-content;
+}
+
+.man-view--acc-chart-dials-more {
+    text-align: end;
+    color: #2A9EB3;
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+
+    .man-view--acc-chart-cont {
+        width: 1300px;
+    }
+
+  
+
+    .man-view--row {
+        margin-top: 10px;
+        width: 30vw;
+        zoom: .5;
+        transform: scale(.53);
+        transform-origin:top;
+    }
+}

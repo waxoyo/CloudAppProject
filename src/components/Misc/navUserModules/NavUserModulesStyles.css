@@ -1,0 +1,81 @@
+.nav-user-modules{
+    /* transform: translateY(-1px); */
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(253, 253, 253, 0.738);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.nav-user-modules-container {
+    background-color: white;
+    height: 50px;
+    width: 70vw;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav-user-modules-container-superAdmin {
+    background-color: white;
+    height: 50px;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.nav-user-button {
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    width: 180px;
+    text-align: center;
+}
+
+.nav-user-button:hover {
+    cursor: pointer;
+}
+
+.nav-user-button--dash {
+    border: 1px solid rgb(48, 88, 167);
+    background-color: rgb(48, 88, 167);
+}
+
+.nav-user-button--hosp {
+    border: 1px solid #3AB449;
+    background-color: #3AB449;
+}
+
+.nav-user-button--maint {
+    border: 1px solid #FDAB11;
+    background-color: #FDAB11;
+
+}
+
+.nav-user-button--reps {
+    border: 1px solid #F8323B;
+    background-color: #F8323B;
+}
+
+.nav-user-button--eqs {
+    border: 1px solid #2A9EB3;
+    background-color: #2A9EB3;
+}
+
+
+@media screen and (max-width: 950px) {
+    
+    /* .nav-user-modules {
+        display: none;
+    } */
+    
+} 

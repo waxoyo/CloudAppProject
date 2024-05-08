@@ -1,0 +1,389 @@
+.techLand--callback-button-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.techLand--callback-button {
+    color: #4f4f4f;
+    border: #4f4f4f 1px solid;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.techLand--callback-button:hover {
+    color: #707070;
+    background-color: rgb(228, 228, 228);
+    border: #707070 1px solid;
+    cursor: pointer;
+}
+
+.techLand--row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.techLand--reports-body {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+}
+
+.techLand--reports-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: start;
+    padding: 30px;
+    gap: 1px;
+}
+
+.techLand--reports-card-head {
+    display: grid;
+    grid-template-columns: 45px 1fr 1fr 1fr 1fr;
+    min-width: 30vw;
+    margin-bottom: 10px;
+    min-width: 60vw;
+    color: #4f4f4f; 
+}
+
+.techLand--reports-card {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 1fr 1fr;
+    padding: 15px;
+    min-width: 60vw;
+    height: 50px;
+    
+    color: #4f4f4f;
+}
+
+.techLand--reported{
+    background-color: rgb(245, 197, 239);
+}
+
+.techLand--closed{
+    background-color: rgb(213, 250, 225);
+}
+
+.techLand--open{
+    background-color: rgb(240, 240, 240);
+}
+
+
+.techLand--equips-body {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(152, 182, 206);
+}
+
+.techLand--equips-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: 100%;
+}
+
+.techLand--equip-container {
+    width: 100%;
+}
+
+.techLand--equip-head {
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    display: grid;
+    grid-template-columns: 40px 1fr .9fr .9fr .9fr;
+    justify-items: left;
+
+    border: #707070 1px dashed;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.techLand--equip {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40px 1fr .9fr .9fr .9fr;
+    padding: 20px;
+    font-size: 1em;
+    letter-spacing: .05em;
+    background-color: #d3d7db;
+    color: rgb(71, 71, 71);
+}
+
+.techLand--equip-name {
+    font-weight: bold;
+}
+
+.techLand--equip-group-filter {
+    justify-self: left;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    border: #707070 1px dashed;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.techLand--equip-group-filter-select{
+    background-color: rgb(174, 191, 204);
+    border: rgb(71, 71, 71) solid 0px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(71, 71, 71);
+}
+
+.techLand--equip-body {
+    width: 100%;
+    background-color: #d3d7db;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: start;
+    /* padding: 25px; */
+    padding-top: 2px;
+
+    height: 0;
+    overflow: hidden;
+    transition: height ease .5s;
+}
+
+.techLand--equip-body.visible {
+    padding: 20px;
+    padding-top: 0;
+    height: 890px;
+    overflow: auto;
+    transition: height ease .5s;
+}
+
+.techLand--equip-body-tiles {
+    color: rgb(71, 71, 71);
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-items: center;
+    align-items: end;
+    gap: 5px;
+    
+}
+
+.techLand--equip-body-tile {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 0px 0;
+    background-color: #bfc3c8;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    align-items: center;
+    height: 50px;
+}
+
+.techLand--selected-tile {
+    color: white;
+    background-color: #5d8cb2;
+}
+
+.techLand--equip-body-tile-body-report {
+    padding: 20px;
+    background-color: #6ba1cd;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+    border-radius: 3px;
+}
+
+.techLand--equip-body-reports {
+    color: #4f4f4f;
+}
+
+.techLand--equip-body-tile-maints {
+    /* padding: 4px; */
+    background-color: #6ba1cd;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+    max-height: 300px;
+}
+
+.techLand--maint-calendar {
+    background-color: white;
+    border-radius: 20px;
+    color: #4f4f4f;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 300px;
+    padding: 30px;
+}
+
+
+.techLand--equip-body-report-chart {
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    font-size: 10em;
+    color: #4f4f4f;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.techLand--maint-calendar-month {
+    font-size: 3em;
+}
+
+.techLand--maint-calendar-year {
+    font-size: 1.5em;
+}
+
+.techLand--equip-body-reports {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-content: start;
+    max-height: 300px;
+    overflow-y: scroll;
+    
+}
+
+.techLand--equip-body-new-report {
+    text-align: center;
+    color: white;
+    background-color: #2b8a36;
+    padding: 10px;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.techLand--equip-body-new-report:hover {
+    cursor: pointer;
+}
+
+.techLand--equip-body-new-maint {
+    text-align: center;
+    color: white;
+    background-color: #FDAB11;
+    padding: 10px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.techLand--equip-details-cont {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: .30fr 1fr;
+    height: 429px;
+}
+
+.techLand--equip-img {
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.techLand--equip-no-img {
+    color: #909090;
+    background-color: #EFEFEF;
+    font-size: 4em;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.techLand--equip-details-body {
+    height: 100%;
+}
+
+.techLand--equip-details-body-element {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    background-color: #f8f8f8;
+}
+
+.techLand--equip-details-name {
+    color: #909090;
+    font-weight: bold;
+    border: #efefef 1px solid;
+    padding: 10px;
+    border-right: 3px;
+}
+
+.techLand--equip-details-value {
+    color: #707070;
+    font-style: italic;
+    padding: 10px;
+    border: #efefef 1px solid;
+}
+
+.techLand--label-button-container {
+    margin: 5px 20px 0px 40px;
+    max-width: fit-content;
+}
+
+.techLand--label-button {
+    color: #4f4f4f;
+    /* border: #4f4f4f 1px solid; */
+    padding: 10px;
+    /* background-color: white; */
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.techLand--label-button:hover {
+    color: white;
+    background-color: #4f4f4f;
+}
+
+.techLand--qr-icon {
+    font-size: 1.2em;
+}
+
+.techLand--notice {
+    color: rgb(191, 0, 0);
+}
+
+@media screen and (max-width: 950px) {
+
+    .techLand--equips-body {
+        position: absolute;
+        left: -25vw;
+        margin-top: 10px;
+        width: 150vw;
+        min-width: 1200px;
+        zoom: .4;
+        transform: scale(.6);
+        transform-origin:top;
+    }
+
+    .techLand--equip-body.visible {
+        height: 1150px;
+    }
+
+    .techLand--equip-body-tiles {
+        grid-template-columns: 200px 200px;
+    }
+
+
+    .techLand--equip-body-tile-body-report {
+        grid-template-columns: 1fr;
+    }
+
+    .techLand--maint-calendar,.techLand--equip-body-report-chart {
+        display: none;
+    }
+
+}

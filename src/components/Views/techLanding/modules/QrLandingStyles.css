@@ -1,0 +1,79 @@
+.qrLanding--body-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    justify-self: center;
+    color: #757575;
+}
+
+.qrLanding-details-container {
+    text-align: center;
+}
+
+.qrLanding--equip-name {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
+}
+
+.qrLanding--next-maint-container {
+    text-align: center;
+    font-size: 1em;
+    font-family: Value-Serif;
+    /* border: #4f4f4f 1px dashed; */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #8eb8c3;;
+}
+
+.qrLanding--next-maint-title {
+    font-family: Value-Serif;
+    font-weight: bold;
+}
+
+.qrLanding--next-maint-value {
+    font-family: Value-Serif;
+    letter-spacing: .1em;
+}
+
+.qrLanding--details-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-justify: center;
+    gap: 10px;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}
+
+.qrLanding--details-tag{
+    justify-self: right;
+    font-weight: bold;
+    
+}
+
+.qrLanding--details-value {
+    justify-self: left;
+}
+
+.qrLanding--links {
+    margin-top: 30px;
+    grid-column: span 2;
+    justify-self: center;
+}
+
+.qrLanding-icon {
+    font-size: 1.6em;
+    color: #3AB449;
+}
+
+.qrLanding-icon:hover {
+    cursor: pointer;
+}
+
+
+/*color: #4f4f4f; */

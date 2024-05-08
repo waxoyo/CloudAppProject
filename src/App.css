@@ -1,0 +1,35 @@
+@import url('./styles/generalStyles.css');
+
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Light.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Value-Serif;
+    src: url('./fonts/Value-Serif.ttf');
+    font-weight: bold;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,55 @@
+.repDashAdmin--row{
+    justify-self: center;
+    width: 89vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    max-width: 1400px;
+}
+
+.repDashAdmin--dials-and-chart-container {
+    display: grid;
+    grid-template-columns: .3fr .7fr;
+}
+
+.repDashAdmin--chart {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.repDashAdmin--dials-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    gap: 15px;
+}
+
+.repDashAdmin--dials-row {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.repDashAdmin--dial-title {
+    color: #6ba1cd;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.repDashAdmin--dial-dropdown {
+    padding: 5px;
+    font-size: 1em;
+    color: rgb(108, 108, 108);
+    background-color: white;
+    border: rgb(108, 108, 108) 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 35px;
+    width: 200px;
+}

@@ -1,0 +1,20 @@
+.nav-user-mobile-modules {
+    height: 220px; /*same as in navbar.css*/
+}
+
+.nav-user-mobile-modules-container,.nav-user-mobile-modules-container-superAdmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.nav-user-mobile-button {
+    color: white;
+    background-color: #91adca;
+    border: 1px solid #91adca;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 5px;
+}

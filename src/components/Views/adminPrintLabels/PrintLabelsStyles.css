@@ -1,0 +1,83 @@
+.sticker-PDF-button{
+    padding: 5px;
+    color: white;
+    background-color: #375d7e;
+    font-size: 1.1em;
+    margin: 20px;
+    border: #375d7e solid 1px;
+    border-radius: 5px;
+}
+
+.allStickers {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    gap: 10px;
+    justify-items: left;
+    padding: 30px;
+}
+
+.sticker-body {
+    /* width: 60vw; */
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(290deg, hsla(0, 0%, 100%, 1) 61%, hsla(208, 39%, 35%, 1) 95%);
+    background: -moz-linear-gradient(290deg, hsla(0, 0%, 100%, 1) 61%, hsla(208, 39%, 35%, 1) 95%);
+    background: -webkit-linear-gradient(290deg, hsla(0, 0%, 100%, 1) 61%, hsla(208, 39%, 35%, 1) 95%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#375D7E", GradientType=1 );
+    
+    width: 370px;
+    height: 200px;
+    margin-bottom: 55px;
+}
+
+.sticker-container {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.sticker-img {
+    width: 50px;
+}
+
+.sticker-comp {
+    font-weight: bold;
+}
+
+.sticker-equip {
+    color: #375d7e;
+    font-family: Roboto;
+    font-size: 1.2em;
+}
+
+.sticker-middle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    justify-content: left;
+    text-align: justify;
+    /* width: 100%; */
+    
+}
+
+.sticker-details-cont {
+    font-size: .8em;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+}
+
+.sticker-qr-container {
+    justify-self: center;
+}
+
+.sticker-details-foot {
+    grid-column-start: 2;
+    text-align: end;
+    font-size: .8em;
+    transform: translateY(-15px);
+}

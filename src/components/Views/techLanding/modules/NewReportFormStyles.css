@@ -1,0 +1,168 @@
+.NewRepForm--body {
+    display: grid;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.NewRepForm--title {
+    justify-self: left;
+    text-align: left;
+    margin: 30px 0 20px 0;
+    letter-spacing: .2em;
+    color: #474747;
+    font-size: 1.2em;
+}
+
+.NewRepForm--equip-details-body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.NewRepForm--equip-details-body-element {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    background-color: #f8f8f8;
+    width: 65vw;
+}
+
+.NewRepForm--equip-details-name {
+    color: #909090;
+    font-weight: bold;
+    border: #efefef 1px solid;
+    padding: 10px;
+    border-right: 3px;
+}
+
+.NewRepForm--equip-details-value {
+    color: #707070;
+    font-style: italic;
+    padding: 10px;
+    border: #efefef 1px solid;
+}
+
+.NewRepForm--equip-details-body-bigelement {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f8f8f8;
+    width: 65vw;
+}
+
+.NewRepForm--equip-details-bigname {
+    color: #909090;
+    font-weight: bold;
+    border: #efefef 1px solid;
+    padding: 10px;
+}
+
+.NewRepForm--equip-details-bigvalue {
+    color: #707070;
+    font-style: italic;
+    padding: 10px;
+    border: #efefef 1px solid;
+    min-height: 100px;
+}
+
+.NewRepForm--report-img-array {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+}
+
+.NewRepForm--rep-img-container {
+    display: grid;
+    grid-template-rows: 20px 1fr;
+}
+
+.NewRepForm--upload-img-button {
+    color: #707070;
+    background-color: white;
+    border: 1px solid #707070;
+    max-width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.NewRepForm--upload-img-button:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.NewRepForm--del-rep-img {
+    font-size: 1.3em;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    color: #707070;;
+
+    position: relative;
+    left: 10px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    overflow: visible;
+}
+
+
+.NewRepForm--buttons-container {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.NewRepForm--create-buton {
+    color: white;
+    background-color: #707070;
+    padding: 10px;
+    width: 100px;
+    border: #707070 1px solid;
+    border-radius: 5px;
+}
+
+.NewRepForm--cancel-buton {
+    color: #707070;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: #707070 1px solid;
+    border-radius: 5px;
+}
+
+.NewRepForm--create-buton:hover, .NewRepForm--cancel-buton:hover{
+    color: #707070;
+    background-color: rgb(228, 228, 228);
+    border: #707070 1px solid;
+    cursor: pointer;
+}
+
+.NewRepForm--img-error-msg {
+    margin-left: 10px;
+    font-size: .9em;
+    color: rgb(191, 0, 0);
+}
+
+.NewRepForm--requiered {
+   border-color: rgb(191, 0, 0); 
+}
+
+@media screen and (max-width: 950px) {
+    .NewRepForm--body {
+        font-size: .8em;
+    }
+
+    .NewRepForm--equip-details-body-element {
+        width: 85vw;
+    }
+
+    .NewRepForm--equip-details-name {
+        min-width: 35vw;
+    }
+
+    .NewRepForm--equip-details-body-bigelement {
+        width: 85vw;
+    }
+}
